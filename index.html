@@ -1,47 +1,62 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+
     <meta charset="UTF-8">
 
-<!--グーグルフォントからNOTOSANSをダウンロード-->
+ <!--グーグルフォントからNOTOSANSをダウンロード-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     
-    <script src="sample.js" async></script>
-    <link rel="stylesheet" href="style.css"> 
-    <title>chapiope</title>
+    <script src="index.js" async></script>
+    <link rel="stylesheet" href="index.css"> 
+    <title>chapiopeのウェブサイト</title>
+
 </head>
+
+
 
 <body>
 
-    <div class="header">
+    <header>
+        <p class="selected"><a href="index.html">chapiope log</a></p>
+        <ul>
+            <li><a href="project.html">project</a></li>
+            <li><a href="photo.html">photo</a></li>
+            <li><a href="craft.html">craft</a></li>
+            <li><a href="other.html">other</a></li>
+        </ul>
 
+    </header>
+
+    <main>
+        <div class="post">
+
+            <h1>2024/07/18</h1>
+            <img src="CHP01684.jpg" width=100%>
+            <p>自転車のハンドルをカスタムしたので</p>
         
-        <h1>chapiope<span>の</span>ログ</h1>
-        
-
-        <nav class="navigathion">
-            <ul>
-                <li class="list"><a href="#">毎日</a></li>
-                <li class="list"><a href="#">コーディング</a></li>
-                <li class="list"><a href="#">してみる</a></li>
-                <li class="list"><a href="portfolio.html">作品はここから</a></li>
-            </ul>
-        </nav>
-
-    </div>
-    
-    <div class="conteiner">
-        <h1>活動ログ<span>が</span>ここに並ぶ予定</h1>
-        <p>すこしづつだね～</p>
-        <div class="log">
-            <h2>日付</h2>
-            <img src="レターケース.png">
-            <h5>ココに文章が来ます</h5>
         </div>
-    </div>
-    
+
+        <div class="post">
+
+
+            <h1>yyyy/mm/dd</h1>
+            <img src="CHP01684.jpg" width=100%>
+            <p>サンプルテキサス</p>
+        
+        </div>
+
+    </main>
+
+    <footer>
+        <small>chapiopeのウェブサイト</small>
+    </footer>
+
 </body>
+
+
 
 </html>
