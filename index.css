@@ -1,0 +1,63 @@
+:root {
+    --FTsize-header: 25px;
+}
+
+* { /*全てに適用*/
+    font-family: "Noto Sans JP";
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #EFEFEF;
+    font-size: var(--FTsize-header);
+    letter-spacing: 0.1em;
+    padding: 1px;
+
+    a:link { color: #AAAAAA; }
+    a:visited { color: #AAAAAA; }
+}
+
+li {
+    
+    list-style-type: none;
+    float: left;
+    margin-left: 50px;
+    font-size: 75%; 
+}
+
+
+.selected  {
+    a:visited { color: #222222; }
+}
+
+header p {   
+    padding-top: 0.5px;
+    font-weight: 900;
+    padding-left: 25px;
+}
+
+main {
+    background-color: #FAFAFA;
+    padding: 50px;
+}
+
+.post {
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 75%;
+    background-color: #FFFFFF;
+    color: #222222;
+    box-shadow: #EFEFEF 3px 3px 10px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: right;
+    background-color: #EAEAEA;
+    padding: 10px
+}
