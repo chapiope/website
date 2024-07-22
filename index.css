@@ -170,7 +170,7 @@ footer {
 
 .aboutme .tag {
     margin-left: 20px;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 85%;
 }
 
@@ -187,7 +187,7 @@ footer {
 }
 
 .support-sentence {
-    line-height: 50%;
+    line-height: 75%;
     font-size: 50%;
     margin-left: 5px;
     font-weight: 300;
