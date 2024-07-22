@@ -1,24 +1,32 @@
-//コピペした
 
-// ① ターゲット要素を取得
-const post = document.getElementById("post");
+'use strict';
+{
+    
 
-// ③ オプション設定 ※デフォルトで良いなら記述しなくでも大丈夫です！
-const options = {
-  threshold: 0.5,
-};
+    function animObserver(elements, timing) {
+        const options = {
+            root: null,
+            rootMargin: `0px 0px ${timing}px 0px`,
+            threshold: [0.3]
+        }
 
-// ④ 要素が表示されたら実行
-function showImage(entries) {  
-  if (entries[0].isIntersecting) {
-    post.style.opacity = 1;
-  }
+        function showImage(entries) { 
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in');
+                }
+            });
+        }
+
+        const observer = new IntersectionObserver(showImage, options);
+
+        elements.forEach(target => {
+            observer.observe(target);
+        });
+
+    }
+
+    const post = document.querySelectorAll('.anim');
+
+    animObserver(post, -100);
 }
-
-// ② IntersectionObserverを呼び出す
-const observer = new IntersectionObserver(showImage, options);
-
-// ⑤ 実行
-observer.observe(post);
-
-//コピペした最後
