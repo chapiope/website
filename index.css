@@ -2,25 +2,17 @@
     --FTsize-header: 25px;
 }
 
-#post {
-    transition: 4s;
-    opacity: 0;
+span {
+    font-size: 80%;
 }
 
-.photo-out {
-    transition: 1s;
-    opacity: 0;
-}
-
-.photo-out.in {
-    opacity: 1;
-}
 
 * { /*全てに適用*/
     font-family: "Noto Sans JP";
     text-decoration: none;
 }
 
+/* 全ページヘッダーに適用 */
 header {
     display: flex;
     align-items: center;
@@ -32,8 +24,6 @@ header {
     a:link { color: #AAAAAA; }
     a:visited { color: #AAAAAA; }
 }
-
-
 
 li {
     
@@ -52,13 +42,26 @@ header p {
     padding-top: 0.5px;
     font-weight: 900;
     padding-left: 25px;
+    
 }
 
+/* メインの背景設定 */
 main {
     background-color: #FAFAFA;
     padding: 50px;
 }
 
+/* ホーム用のポスト設定 */
+
+
+.post-out {
+    transition: 1s;
+    opacity: 0;
+}
+
+.post-out.in {
+    opacity: 1;
+}
 
 .post {
     margin: auto;
@@ -77,26 +80,23 @@ main {
   
 }
 
+.post h1 {
+    letter-spacing: 0.05em;
+}
 
 .date {
     text-align: right;
     font-size: 80%;
 }
 
-
-
-footer {
-    text-align: right;
-    background-color: #EAEAEA;
-    padding: 10px
-}
+/* 開いたブログページの設定 */
 
 .post-opned {
     margin: auto;
     margin-bottom: 30px;
     padding: 1px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     width: 95%;
     background-color: #FFFFFF;
     color: #222222;
@@ -109,6 +109,11 @@ footer {
     
 }
 
+.mb5 {
+    margin-bottom: 5em;
+}
+
+/* photo.htmlの設定 */
 
 .photo {
     margin: auto;
@@ -128,3 +133,58 @@ footer {
 .photo img {
     margin-bottom: 100px;
 }
+
+.photo-out {
+    transition: 1s;
+    opacity: 0;
+}
+
+.photo-out.in {
+    opacity: 1;
+}
+
+/* フッターの設定 */
+
+footer {
+    letter-spacing: 0.075em;
+    background-color: #EAEAEA;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+.aboutme {
+    line-height: 60%;
+}
+
+.aboutme .name {
+    margin-left: 10px;
+}
+
+.aboutme .discribe {
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+.name {
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.support {
+    display: flex;
+    justify-content: space-between;
+    font-size: 75%;
+    line-height: 50%;
+    margin-left: 20px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.support-sentence {
+    padding-top: 1px;
+}
+
+
+
+
