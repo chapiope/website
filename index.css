@@ -105,8 +105,14 @@ main {
 
     a:link { color: #6034ff; }
     a:visited { color: #6034ff; }
+}
 
-    
+.post-opned h1 {
+    font-size: 40px;
+}
+
+.post-opned h2 {
+    font-size: 30px;
 }
 
 .mb5 {
@@ -192,6 +198,7 @@ footer {
     margin-left: 25px;
     font-weight: 300;
 }
+
 
 
 
