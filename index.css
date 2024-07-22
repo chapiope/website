@@ -154,7 +154,7 @@ footer {
 }
 
 .aboutme {
-    line-height: 60%;
+    line-height: 75%;
 }
 
 .aboutme .name {
@@ -164,6 +164,7 @@ footer {
 .aboutme .discribe {
     margin-left: 20px;
     font-weight: 300;
+    font-size: 75%;
 }
 
 .name {
@@ -174,8 +175,8 @@ footer {
 .support {
     display: flex;
     justify-content: space-between;
-    font-size: 75%;
-    line-height: 50%;
+    font-size: 60%;
+    line-height: 75%;
     margin-left: 20px;
     font-weight: 300;
     padding-bottom: 20px;
