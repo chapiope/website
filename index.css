@@ -183,17 +183,15 @@ footer {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
-    
     padding-bottom: 20px;
 }
 
 .support-sentence {
-    line-height: 80%;
-    font-size: 25%;
+    line-height: 50%;
+    font-size: 50%;
     margin-left: 5px;
     font-weight: 300;
 }
-
 
 
 
