@@ -163,8 +163,16 @@ footer {
 
 .aboutme .discribe {
     margin-left: 20px;
+    font-weight: 500;
+    font-size: 80%;
+    line-height: 60%;
+}
+
+.aboutme .tag {
+    margin-left: 20px;
     font-weight: 300;
-    font-size: 75%;
+    font-size: 50%;
+    line-height: 75%;
 }
 
 .name {
@@ -173,17 +181,18 @@ footer {
 }
 
 .support {
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
-    font-size: 60%;
-    line-height: 75%;
-    margin-left: 20px;
+    font-size: 10%;
+    margin-left: 5px;
     font-weight: 300;
     padding-bottom: 20px;
+    line-height: 95%;
 }
 
 .support-sentence {
-    padding-top: 1px;
+    padding-top: 5px;
 }
 
 
