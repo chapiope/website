@@ -171,7 +171,7 @@ footer {
 .aboutme .tag {
     margin-left: 20px;
     font-weight: 300;
-    font-size: 80%;
+    font-size: 75%;
     line-height: 75%;
 }
 
@@ -188,12 +188,10 @@ footer {
     font-weight: 300;
     padding-bottom: 20px;
     line-height: 95%;
-    font-size: 70%;
+    font-size: 50%;
 }
 
-.support-sentence {
-    padding-top: 5px;
-}
+
 
 
 
