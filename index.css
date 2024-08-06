@@ -153,6 +153,15 @@ main {
     opacity: 1;
 }
 
+.craft-out {
+    transition: 1s;
+    opacity: 0;
+}
+
+.craft-out.in {
+    opacity: 1;
+}
+
 /* フッターの設定 */
 
 footer {
