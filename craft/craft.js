@@ -26,7 +26,7 @@
 
     }
 
-    const photolight = document.querySelectorAll('.anim');
+    const craftlight = document.querySelectorAll('.anim');
 
-    animObserver(photolight, -100);
+    animObserver(craftlight, -100);
 }
