@@ -163,7 +163,7 @@ main {
 }
 
 .grid ul {
-    display: flex;
+    float: left;
     justify-content: center;
     padding: 10px;
 }
