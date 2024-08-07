@@ -162,6 +162,11 @@ main {
     opacity: 1;
 }
 
+.grid ul {
+    display: flex;
+    justify-content: center;
+}
+
 /* フッターの設定 */
 
 footer {
