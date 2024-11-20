@@ -187,36 +187,11 @@ footer {
 }
 
 .aboutme .discribe {
-    margin-left: 20px;
-    font-weight: 500;
-    font-size: 80%;
-    line-height: 60%;
+    margin: auto;
+    font-size: 10px;
 }
 
-.aboutme .tag {
-    margin-left: 20px;
-    font-weight: 400;
-    font-size: 95%;
-}
 
-.name {
-    font-weight: 600;
-    margin-left: 10px;
-}
-
-.support {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 20px;
-}
-
-.support-sentence {
-    line-height: 50%;
-    font-size: 50%;
-    margin-left: 25px;
-    font-weight: 300;
-}
 
 
 
