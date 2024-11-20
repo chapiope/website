@@ -189,6 +189,7 @@ footer {
 .aboutme .discribe {
     margin: auto;
     font-size: 10px;
+    display: flex;
 }
 
 
