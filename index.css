@@ -25,7 +25,7 @@ header {
     a:visited { color: #AAAAAA; }
 }
 
-header li {
+li {
     
     list-style-type: none;
     float: left;
@@ -82,6 +82,10 @@ main {
 
 .post h1 {
     letter-spacing: 0.05em;
+}
+
+.top {
+    text-align: center;
 }
 
 .date {
@@ -162,12 +166,24 @@ main {
     opacity: 1;
 }
 
-.grid {
-    text-align: center;
+.card {
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: #222222;
+    box-shadow: #EFEFEF 3px 3px 10px;
+    border-radius: 10px;
+
+    a:link { color: #6034ff; }
+    a:visited { color: #6034ff; }
+  
 }
 
-.grid li {
+
+.grid ul {
     display: flex;
+    justify-content: center;
     padding: 10px;
 }
 
