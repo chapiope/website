@@ -166,7 +166,7 @@ main {
     text-align: center;
 }
 
-.grid ul {
+.grid li {
     display: flex;
     padding: 10px;
 }
