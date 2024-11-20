@@ -162,9 +162,12 @@ main {
     opacity: 1;
 }
 
+.grid {
+    text-align: center;
+}
+
 .grid ul {
     display: flex;
-    justify-content: center;
     padding: 10px;
 }
 
