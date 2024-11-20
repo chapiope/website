@@ -31,6 +31,21 @@
     animObserver(craftlight, -100);
 }
 
+const overlaycard = document.querySelector('.overlay-card');
+
+const card1 = document.querySelector('.card-1');
+const modalcard1 = document.querySelector('.modalcard-1');
+card1.addEventListener('click', function(e){
+    e.preventDefault();
+    modalcard1.classList.add('active');
+    overlaycard.classList.add('active');
+});
+overlaycard.addEventListener('click', function() {
+    modalcard1.classList.remove('active');
+    overlaycard.classList.remove('active');
+});
+
+
 const btn1 = document.querySelector('.btn-1');
 const modal1 = document.querySelector('.modal-1');
 const btn2 = document.querySelector('.btn-2');
