@@ -1,361 +1,149 @@
-span {
-    font-size: 80%;
-}
+<!DOCTYPE html>
+<html>
 
-* { /*全てに適用*/
-    font-family: "Noto Sans JP";
-    text-decoration: none;
-}
+<head>
 
+    <meta charset="UTF-8">
 
+ <!--グーグルフォントからNOTOSANSをダウンロード-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <script src="index.js" async></script>
+    <link rel="stylesheet" href="index.css"> 
+    <title>chapiopeのウェブサイト</title>
 
-/* 全ページヘッダーに適用 */
-header {
-    display: flex;
-    align-items: center;
-    background-color: #EFEFEF;
-    font-size: 25px;
-    letter-spacing: 0.1em;
-    padding: 1px;
-    a:link { color: #AAAAAA; }
-    a:visited { color: #AAAAAA; }
-}
-
-header li {
-    list-style-type: none;
-    float: left;
-    margin-left: 50px;
-    font-size: 75%; 
-}
-
-.selected  {
-    a:visited { color: #222222; }
-}
-
-header p {   
-    padding-top: 0.5px;
-    font-weight: 900;
-    padding-left: 25px;    
-}
-
-.top {
-    text-align: center;
-}
-
-/* メインの背景設定 */
-main {
-    background-color: #FAFAFA;
-    padding: 50px;
-}
+</head>
 
 
 
-/* ホーム用のポスト設定 */
-.post {
-    margin: auto;
-    margin-bottom: 30px;
-    padding: 1px;
-    padding-right: 20px;
-    padding-left: 20px;
-    width: 80%;
-    background-color: #FFFFFF;
-    color: #222222;
-    box-shadow: #EFEFEF 3px 3px 10px;
-    border-radius: 10px;
-    a:link { color: #6034ff; }
-    a:visited { color: #6034ff; }
-}
+<body>
 
-.post h1 {
-    letter-spacing: 0.05em;
-}
+    <header>
+        <p class="selected"><a href="index.html">chapiope log</a></p>
+        <ul>
+            <li><a href="project/project.html">project</a></li>
+            <li><a href="photo/photo.html">photo</a></li>
+            <li><a href="craft/craft.html">craft</a></li>
+            <li><a href="other/other.html">other</a></li>
+        </ul>
 
+    </header>
 
+    <main>
 
-.date {
-    text-align: right;
-    font-size: 80%;
-}
+        <div class="post post-out anim">
+            
+            <h1>劣等感にはフリップ芸を</h1>
+            <a href="blog/blog-6/blog20241008.html">
+            </a>
+            <p>劣等感。みんなは劣等感を感じていると自覚してますか？この言い方は...<a href="blog/blog-6/blog20241008.html"> 続きを読む</a></p>
+            <p class="date">vol.6 2024/10/08</p>
+            
+        </div>
 
-/* 開いたブログページの設定 */
-.post-opned {
-    margin: auto;
-    margin-bottom: 30px;
-    padding: 1px;
-    padding-right: 30px;
-    padding-left: 30px;
-    width: 95%;
-    background-color: #FFFFFF;
-    color: #222222;
-    box-shadow: #EFEFEF 3px 3px 10px;
-    border-radius: 10px;
-    a:link { color: #6034ff; }
-    a:visited { color: #6034ff; }
-}
+        <div class="post post-out anim">
+            
+            <h1>カメラなんてなんでもいい<span> わけないだろ。</span></h1>
+            <a href="blog/blog-5/blog20240924.html">
+            <img src="blog/blog-5/CHP03061.jpg" width=100%>
+            </a>
+            <p>「写真は何で撮ったかは関係ない」って話、本当にそうなんか？と思う。...<a href="blog/blog-5/blog20240924.html"> 続きを読む</a></p>
+            <p class="date">vol.5 2024/09/24</p>
+            
+        </div>
 
-.post-opned h1 {
-    font-size: 40px;
-}
+         <div class="post post-out anim">
+            
+            <h1>関東あるある<span>が</span>言いたい<span>（なんでやねん）</span></h1>
+            <a href="blog/blog-4/blog20240808.html">
+            </a>
+            <p>今(21:27)、東京から京都に向かう新幹線でこれを書いています。...<a href="blog/blog-4/blog20240808.html"> 続きを読む</a></p>
+            <p class="date">vol.4 2024/08/08</p>
+            
+        </div>
 
-.post-opned h2 {
-    font-size: 30px;
-}
-
-.mb5 {
-    margin-bottom: 5em;
-}
-
-.mb3 {
-    margin-bottom: 5em;
-}
+        <div class="post post-out anim">
+            
+            <h1>思ってたこと全部言います。<span>（さよなら京都）</span></h1>
+            <a href="blog/blog-3/blog20240806.html">
+            <img src="blog/blog-3/20240806.jpeg" width=100%>
+            </a>
+            <p>これが投稿されているということはもう私は...<a href="blog/blog-3/blog20240806.html"> 続きを読む</a></p>
+            <p class="date">vol.3 2024/08/06</p>
+            
+        </div>
 
 
-
-/* photo.htmlの設定 */
-.photo {
-    margin: auto;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 20px;
-    width: 98%;
-    background-color: #FFFFFF;
-    box-shadow: #EFEFEF 3px 3px 10px;
-}
-
-.photo h1 {
-    padding: 10px;
-}
-
-.photo img {
-    margin-bottom: 100px;
-}
-
-/*フェードインアウト*/
-.post-out {
-    transition: 1s;
-    opacity: 0;
-}
-
-.post-out.in {
-    opacity: 1;
-}
-
-.photo-out {
-    transition: 1s;
-    opacity: 0;
-}
-
-.photo-out.in {
-    opacity: 1;
-}
-
-.fade-out {
-    transition: 1s;
-    opacity: 0;
-}
-
-.fade-out.in {
-    opacity: 1;
-}
+        
+        <div class="post post-out anim">
+            
+            <h1>写真<span>は</span>○○でしかない<span>（それと広島旅行の話）</span></h1>
+            <a href="blog/blog-2/blog20240801.html">
+            <img src="blog/blog-2/20240801.jpg" width=100%>
+            </a>
+            <p>「あなたにとって写真とは」これ聞かれると...<a href="blog/blog-2/blog20240801.html"> 続きを読む</a></p>
+            <p class="date">vol.2 2024/08/01</p>
+            
+        </div>
+        
+        <div class="post post-out anim">
+            
+            <h1>NotoSans<span>を</span>使う理由<span>（今更すぎる）</span></h1>
+            <a href="blog/blog-1/blog20240722.html">
+            <img src="blog/blog-1/20240722.png" width=100%>
+            </a>
+            <p>好きなフォントってありますか？ 私はそうですね、...<a href="blog/blog-1/blog20240722.html"> 続きを読む</a></p>
+            <p class="date">vol.1 2024/07/22</p>
+            
+        </div>
 
 
-/*クラフトのページ設定*/
-.picture {
-    width: 250px;
-    height: 250px;
-    padding: 10px;
-    object-fit: contain;
-    background-color: #FFFFFF;
-    box-shadow: #EFEFEF 3px 3px 10px;
-    border-radius: 10px;
-}
+        <div class="post post-out anim">
+            
+            <h1>強烈なタイトル</h1>
+            <a href="blog/blog-sample/blogyyyymmdd.html">
+            <img src="blog/blog-sample/サムネイルサンプル.png" width=100%>
+            </a>
+            <p>読みたくなるようなフックセンテンス...<a href="blog/blog-sample/blogyyyymmdd.html"> 続きを読む</a></p>
+            <p class="date">vol.0 yyyy/mm/dd</p>
+            
+        </div>
 
-.card {
-    display: inline;
-}
+       
 
-.grid {
-    text-align: center;
-    padding-left: 0px;
-}
+    </main>
 
-.image-list {
-    display: flex;
-}
+    <footer>
+        <div class="discribe">
+            <a href="#" class="btn-1">About</a>
+            <a href="#" class="btn-2">Contact</a>
+        </div>
 
-.overlay-card {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.6); 
-    opacity: 0;
-    visibility: hidden;
-    transition: .3s;
-}
-.overlay-card.active {
-    opacity: 1;
-    visibility: visible;
-}
+        <div class="overlay"></div>
 
-.modalcard-1 {
-    max-width: 600px;
-    width: 90%;
-    margin: 20px;
-    padding: 15px 20px;
-    border-radius: 10px;
-    text-align: center;
-    background: #fff;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    visibility: hidden;
-    transition: .3s;
-}
-.modalcard-1.active {
-    opacity: 1;
-    visibility: visible;
-}
+        <div class="modal-1">
+            <div class="close-1">&times</div>
+            <h2>Genshiro Masada</h2>
+            <div class = "block">
+                <p class = "sentence">2019-2023 Kyoto Institute of Technology design & architecture</p>
+                <p class = "sentence">2023- Kyoto Institute of Technology master of design</p>
+            </div>
+        </div>
+
+        <div class="modal-2">
+            <div class="close-2">&times</div>
+            <h2>お問い合わせ先について</h2>
+            <div class = "block">
+                <p class = "sentence">お問い合わせは次のメールアドレス、genshiro111223@gmail.comまで<br>もしくはInstagramのDMからお願いいたします。</p>
+            </div>
+        </div>
+        
+    </footer>
+
+</body>
 
 
 
-/* フッターの設定 */
-footer {
-    letter-spacing: 0.075em;
-    background-color: #EAEAEA;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 10px;
-    text-align: center;
-    height: 100px;
-    padding-top: 60px;
-    a:link { color: #000000; }
-    a:visited { color: #000000; }
-}
-
-.discribe {
-    display: flex;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-.btn-1 {
-    padding: 10px;
-    margin: auto;
-}
-
-.btn-2 {
-    padding: 10px;
-    margin: auto;
-}
-
-.sentence {
-    font-size: 10px;
-}
-
-.block {
-    margin: auto;
-}
-
-.btn:hover {
-opacity: .8;
-}
-
-/* オーバーレイ */
-.overlay {
-    /* 位置を固定 */
-    position: fixed;
-    top: 0;
-    left: 0;
-    /* 画面いっぱいに広がるようにする */
-    width: 100%;
-    height: 100vh;
-    /* rgbaを使って60%の黒いオーバーレイにする */
-    background: rgba(0, 0, 0, 0.6);  
-    /* デフォルトでは見えないようにする */
-    opacity: 0;
-    visibility: hidden;
-    /* 表示する際の変化の所要時間 */
-    transition: .3s;
-}
-
-/* activeクラスのついたオーバーレイ */
-.overlay.active {
-    /* activeクラスがついたときにオーバーレイを表示する */
-    opacity: 1;
-    visibility: visible;
-    }
-
-/* モーダルウィンドウ */
-.modal-1 {
-    max-width: 500px;
-    width: 86%;
-    padding: 15px 20px;
-    background: #fff;
-    /* 位置の調整(真ん中に表示) */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* デフォルトでは非表示にしておく */
-    opacity: 0;
-    visibility: hidden;
-    /* 表示の変化にかかる時間 */
-    transition: .3s;
-}
-
-/* activeクラスのついたモーダルウィンドウ */
-.modal-1.active {
-    opacity: 1;
-    visibility: visible;
-}
-
-/* モーダルウィンドウ内の閉じるボタン */
-.modal-1 .close-1 {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    cursor: pointer;
-    font-size: 20px;
-}
-
-.modal-2 {
-    max-width: 500px;
-    width: 86%;
-    padding: 15px 20px;
-    background: #fff;
-    /* 位置の調整(真ん中に表示) */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /* デフォルトでは非表示にしておく */
-    opacity: 0;
-    visibility: hidden;
-    /* 表示の変化にかかる時間 */
-    transition: .3s;
-}
-
-/* activeクラスのついたモーダルウィンドウ */
-.modal-2.active {
-    opacity: 1;
-    visibility: visible;
-}
-
-/* モーダルウィンドウ内の閉じるボタン */
-.modal-2 .close-2 {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    cursor: pointer;
-    font-size: 20px;
-}
-
-
-
-
-
-
+</html>
