@@ -31,7 +31,11 @@
     animObserver(craftlight, -100);
 }
 
+
+
 const overlaycard = document.querySelector('.overlay-card');
+
+
 
 const card1 = document.querySelector('.card-1');
 const modalcard1 = document.querySelector('.modalcard-1');
@@ -44,6 +48,46 @@ overlaycard.addEventListener('click', function() {
     modalcard1.classList.remove('active');
     overlaycard.classList.remove('active');
 });
+
+const card2 = document.querySelector('.card-2');
+const modalcard2 = document.querySelector('.modalcard-2');
+card2.addEventListener('click', function(e){
+    e.preventDefault();
+    modalcard2.classList.add('active');
+    overlaycard.classList.add('active');
+});
+overlaycard.addEventListener('click', function() {
+    modalcard2.classList.remove('active');
+    overlaycard.classList.remove('active');
+});
+
+const card3 = document.querySelector('.card-3');
+const modalcard3 = document.querySelector('.modalcard-3');
+card3.addEventListener('click', function(e){
+    e.preventDefault();
+    modalcard3.classList.add('active');
+    overlaycard.classList.add('active');
+});
+overlaycard.addEventListener('click', function() {
+    modalcard3.classList.remove('active');
+    overlaycard.classList.remove('active');
+});
+
+const card4 = document.querySelector('.card-4');
+const modalcard4 = document.querySelector('.modalcard-4');
+card4.addEventListener('click', function(e){
+    e.preventDefault();
+    modalcard4.classList.add('active');
+    overlaycard.classList.add('active');
+});
+overlaycard.addEventListener('click', function() {
+    modalcard4.classList.remove('active');
+    overlaycard.classList.remove('active');
+});
+
+
+
+
 
 
 const btn1 = document.querySelector('.btn-1');
