@@ -329,6 +329,12 @@ footer {
     padding-left: 30px;
 }
 
+.subsentence {
+    font-size: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
 .block {
     margin: auto;
 }
