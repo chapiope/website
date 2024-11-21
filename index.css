@@ -221,6 +221,72 @@ main {
     visibility: visible;
 }
 
+.modalcard-2 {
+    max-width: 1000px;
+    width: 80%;
+    margin: 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.modalcard-2.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modalcard-3 {
+    max-width: 1000px;
+    width: 80%;
+    margin: 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.modalcard-3.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modalcard-4 {
+    max-width: 1000px;
+    width: 80%;
+    margin: 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.modalcard-4.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-title {
+    font-size: 50px;
+}
 
 
 /* フッターの設定 */
@@ -241,22 +307,26 @@ footer {
     display: flex;
     margin-left: 50px;
     margin-right: 50px;
+    a:link { color: #AAAAAA; }
+    a:visited { color: #AAAAAA; }
 }
 
 .btn-1 {
     padding: 10px;
     margin: auto;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .btn-2 {
     padding: 10px;
     margin: auto;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .sentence {
     font-size: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .block {
@@ -267,9 +337,7 @@ footer {
 opacity: .8;
 }
 
-.modal-title {
-    font-size: 50px;
-}
+
 
 /* オーバーレイ */
 .overlay {
