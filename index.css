@@ -201,7 +201,7 @@ main {
 }
 
 .modalcard-1 {
-    max-width: 750px;
+    max-width: 1000px;
     width: 90%;
     margin: 20px;
     padding: 15px 20px;
@@ -246,17 +246,17 @@ footer {
 .btn-1 {
     padding: 10px;
     margin: auto;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .btn-2 {
     padding: 10px;
     margin: auto;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .sentence {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .block {
@@ -298,8 +298,8 @@ opacity: .8;
 
 /* モーダルウィンドウ */
 .modal-1 {
-    max-width: 750px;
-    width: 85%;
+    max-width: 1000px;
+    width: 90%;
     padding: 15px 20px;
     background: #fff;
     /* 位置の調整(真ん中に表示) */
@@ -330,8 +330,8 @@ opacity: .8;
 }
 
 .modal-2 {
-    max-width: 500px;
-    width: 86%;
+    max-width: 1000px;
+    width: 90%;
     padding: 15px 20px;
     background: #fff;
     /* 位置の調整(真ん中に表示) */
