@@ -85,6 +85,68 @@ overlaycard.addEventListener('click', function() {
     overlaycard.classList.remove('active');
 });
 
+const card5 = document.querySelector('.card-5');
+const modalcard5 = document.querySelector('.modalcard-5');
+card5.addEventListener('click', function(e){
+    e.preventDefault();
+    modalcard5.classList.add('active');
+    overlaycard.classList.add('active');
+});
+overlaycard.addEventListener('click', function() {
+    modalcard5.classList.remove('active');
+    overlaycard.classList.remove('active');
+});
+
+const card6 = document.querySelector('.card-6');
+const modalcard6 = document.querySelector('.modalcard-6');
+card6.addEventListener('click', function(e){
+    e.preventDefault();
+    modalcard6.classList.add('active');
+    overlaycard.classList.add('active');
+});
+overlaycard.addEventListener('click', function() {
+    modalcard6.classList.remove('active');
+    overlaycard.classList.remove('active');
+});
+
+const card7 = document.querySelector('.card-7');
+const modalcard7 = document.querySelector('.modalcard-7');
+card7.addEventListener('click', function(e){
+    e.preventDefault();
+    modalcard7.classList.add('active');
+    overlaycard.classList.add('active');
+});
+overlaycard.addEventListener('click', function() {
+    modalcard7.classList.remove('active');
+    overlaycard.classList.remove('active');
+});
+
+const card8 = document.querySelector('.card-8');
+const modalcard8 = document.querySelector('.modalcard-8');
+card8.addEventListener('click', function(e){
+    e.preventDefault();
+    modalcard8.classList.add('active');
+    overlaycard.classList.add('active');
+});
+overlaycard.addEventListener('click', function() {
+    modalcard8.classList.remove('active');
+    overlaycard.classList.remove('active');
+});
+
+const card9 = document.querySelector('.card-9');
+const modalcard9 = document.querySelector('.modalcard-9');
+card9.addEventListener('click', function(e){
+    e.preventDefault();
+    modalcard9.classList.add('active');
+    overlaycard.classList.add('active');
+});
+overlaycard.addEventListener('click', function() {
+    modalcard9.classList.remove('active');
+    overlaycard.classList.remove('active');
+});
+
+
+
 
 
 
