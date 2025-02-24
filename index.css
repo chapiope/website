@@ -7,7 +7,10 @@ span {
     text-decoration: none;
 }
 
-
+body {
+    margin: 0;
+}
+    
 
 /* 全ページヘッダーに適用 */
 header {
