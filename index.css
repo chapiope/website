@@ -291,8 +291,8 @@ main {
 
 /* フッターの設定 */
 footer {
-    letter-spacing: 0.075em;
-    background-color: #EAEAEA;
+    letter-spacing: 0.1em;
+    background-color: #808080;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 10px;
