@@ -82,6 +82,28 @@ overlaycard.addEventListener('click', function() {
     modalcard4.classList.remove('active');
     overlaycard.classList.remove('active');
 });
+const card5 = document.querySelector('.card-5');
+const modalcard5 = document.querySelector('.modalcard-5');
+card5.addEventListener('click', function(e){
+    e.preventDefault();
+    modalcard5.classList.add('active');
+    overlaycard.classList.add('active');
+});
+overlaycard.addEventListener('click', function() {
+    modalcard5.classList.remove('active');
+    overlaycard.classList.remove('active');
+});
+const card6 = document.querySelector('.card-6');
+const modalcard6 = document.querySelector('.modalcard-6');
+card6.addEventListener('click', function(e){
+    e.preventDefault();
+    modalcard6.classList.add('active');
+    overlaycard.classList.add('active');
+});
+overlaycard.addEventListener('click', function() {
+    modalcard6.classList.remove('active');
+    overlaycard.classList.remove('active');
+});
 
 
 
